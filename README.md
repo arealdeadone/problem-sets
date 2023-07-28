@@ -53,7 +53,7 @@ java -cp target/<project-1.0-SNAPSHOT.jar> tech.arvindrachuri.Main
 ### 3.4.1. Route Between Nodes
 | **Question** | **Solution** |
 |--------------|--------------|
-| Given a directed graph, design an algorithm to find out whether there is a route between tow nodes. | [Route Betweeb Nodes](TreesAndGraphs/route-between-nodes/) |
+| Given a directed graph, design an algorithm to find out whether there is a route between tow nodes. | [Route Between Nodes](TreesAndGraphs/route-between-nodes/) |
 
 ### 3.4.2. Minimal Tree
 | **Question** | **Solution** |
