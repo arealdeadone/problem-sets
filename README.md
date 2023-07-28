@@ -47,9 +47,37 @@ java -cp target/<project-1.0-SNAPSHOT.jar> tech.arvindrachuri.Main
 | Given a binary tree, design an algorithm which create a linked list of all the nodes at each depth (eg. if you have a tree with depth D, you'll have D linked lists). | [List of Depths](TreesAndGraphs/list-of-depths) |
 
 ### 3.4.4. Check Balanced
-| **Question**                                                                                                                                                                                                            | **Solution**                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| **Question** | **Solution** |
+|--------------|--------------|
 | Implement a function to check if a binary tree is balanced. For the purposes of this question, a balanced tree is defined to be a tree such that the heights of two subtrees of any node never differ by more than one. | [Check Balanced](TreesAndGraphs/check-balanced/) |
+
+### Validate BST
+| **Question** | **Solution** |
+|--------------|--------------|
+| Implement a function to check if a binary is a binary search tree | [Validate BST](TreesAndGraphs/validate-bst/) |
+
+### Successor
+| **Question** | **Solution** |
+|--------------|--------------|
+| Write an algortihm to find the "next"(i.e. in-order successor) of a given node in a binary search tree. You may assume that each node has a link to its parent. | [Successor](TreesAndGraphs/successor/) |
+
+### Build order
+| **Question** | **Solution** |
+|--------------|--------------|
+| You are given a kist of projects and a list of dependencies (which is a list of pairs of projects, where the second project is dependent on the first project). All of a project's dependencies must be build before the project is. Find a build order that will allow the projects to be built. If there is no valid build order, return an error. | |
+| | |
+| EXAMPLE: | |
+| | |
+| Input: | |
+| | |
+|  _projects:_ _a,b,c,d,e,f_ | |
+| | |
+|  _dependencies:_ _(a,d), (f,b), (b,d), (f,a), (d,c)_ | |
+| | |
+| Output: | |
+| | |
+| _f, e, a, b, d, c_ | [Build order](TreesAndGraphs/build-order/) |
+|--------------------|--------------------------------------------|
 
 
 - [1. Introduction](#1-introduction)
@@ -65,5 +93,8 @@ java -cp target/<project-1.0-SNAPSHOT.jar> tech.arvindrachuri.Main
     - [3.4.2. Minimal Tree](#342-minimal-tree)
     - [3.4.3. List of Depths](#343-list-of-depths)
     - [3.4.4. Check Balanced](#344-check-balanced)
+    - [Validate BST](#validate-bst)
+    - [Successor](#successor)
+    - [Build order](#build-order)
 
 
