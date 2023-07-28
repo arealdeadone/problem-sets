@@ -49,6 +49,7 @@ java -cp target/<project-1.0-SNAPSHOT.jar> tech.arvindrachuri.Main
 ## 3.3. Stacks and Queues
 
 ## 3.4. Trees and Graphs
+**Chapter 4 - Trees and Graphs**
 
 ### 3.4.1. Route Between Nodes
 | **Question** | **Solution** |
