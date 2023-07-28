@@ -1,6 +1,5 @@
 package tech.arvindrachuri.tree;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.util.LinkedList;
