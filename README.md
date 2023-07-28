@@ -32,14 +32,25 @@ java -cp target/<project-1.0-SNAPSHOT.jar> tech.arvindrachuri.Main
 ## 3.4. Trees and Graphs
 
 ### 3.4.1. Route Between Nodes
-**Question**: Given a directed graph, design an algorithm to find out whether there is a route between tow nodes.
-
-**Solution** [Route Betweeb Nodes](TreesAndGraphs/route-between-nodes/)- [1. Introduction](#1-introduction)
+| **Question** | **Solution** |
+|--------------|--------------|
+| Given a directed graph, design an algorithm to find out whether there is a route between tow nodes. | [Route Betweeb Nodes](TreesAndGraphs/route-between-nodes/)- [1. Introduction](#1-introduction) |
 
 ### 3.4.2. Minimal Tree
-***Question**
+| **Question** | **Solution** |
+|--------------|--------------|
+| Given a sorted (increasing order) array with unique integer elements, write an algorithm to create a binary search tree with minimal height. | [Minimal Tree](TreesAndGraphs/minimal-tree) |
 
-**Solution** [Minimal Tree] (TreesAndGraphs/minimal-tree)
+### 3.4.3. List of Depths
+| **Question** | **Solution** |
+|--------------|--------------|
+| Given a binary tree, design an algorithm which create a linked list of all the nodes at each depth (eg. if you have a tree with depth D, you'll have D linked lists). | [List of Depths](TreesAndGraphs/list-of-depths) |
+
+### 3.4.4. Check Balanced
+| **Question**                                                                                                                                                                                                            | **Solution**                                     |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| Implement a function to check if a binary tree is balanced. For the purposes of this question, a balanced tree is defined to be a tree such that the heights of two subtrees of any node never differ by more than one. | [Check Balanced](TreesAndGraphs/check-balanced/) |
+
 
 - [1. Introduction](#1-introduction)
 - [2. Getting Started](#2-getting-started)
@@ -52,5 +63,7 @@ java -cp target/<project-1.0-SNAPSHOT.jar> tech.arvindrachuri.Main
   - [3.4. Trees and Graphs](#34-trees-and-graphs)
     - [3.4.1. Route Between Nodes](#341-route-between-nodes)
     - [3.4.2. Minimal Tree](#342-minimal-tree)
+    - [3.4.3. List of Depths](#343-list-of-depths)
+    - [3.4.4. Check Balanced](#344-check-balanced)
 
 
