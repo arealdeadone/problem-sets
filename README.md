@@ -17,6 +17,7 @@
     - [3.4.6. Successor](#346-successor)
     - [3.4.7. Build order](#347-build-order)
     - [3.4.8. First Common Ancestor](#348-first-common-ancestor)
+    - [3.4.9. BST Sequences](#349-bst-sequences)
 
 # 1. Introduction
 This repository contains the solutions in Java to the problems presented in the book Cracking the Coding Interview. All the solutions are arranged in their respective folder according to the chapter names. Each problem is its own Java maven project with their directory names being the same as the problem title in bold as mentioned in the book.
@@ -91,3 +92,7 @@ java -cp target/<project-1.0-SNAPSHOT.jar> tech.arvindrachuri.Main
 |--------------|--------------|
 | Design an algorithm and write code to find the first common ancestor of two nodes in a binary tree. Avoid storing additional nodes in a data structure. NOTE: This is not necessarilt a binary search tree. | [First Common Ancestor](TreesAndGraphs/first-common-ancestor/) |
 
+### 3.4.9. BST Sequences
+| **Question** | **Solution** |
+|--------------|--------------|
+| A binary search tree was created by traversing through an array from left to right and inserting each element. Given a binary search tree with distinct elements, print all possible arrays that could have led to this tree. | [BST Sequences](TreesAndGraphs/bst-sequences/) |
