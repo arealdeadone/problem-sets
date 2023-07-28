@@ -25,13 +25,16 @@ public class Main {
     System.out.println(dependencyGraph.build_order());
 
     dependencyGraph = new Graph();
-    String[] newProjects = {"a", "b", "c", "d", "e", "f"};
+    String[] newProjects = {"a", "b", "c", "d", "e", "f", "g"};
     for(String project : newProjects) dependencyGraph.addNodes(new GraphNode(project, new ArrayList<>(), new ArrayList<>()));
-    dependencyGraph.addEdge("d", "a");
+    dependencyGraph.addEdge("g", "d");
     dependencyGraph.addEdge("b", "f");
-    dependencyGraph.addEdge("d", "b");
+    dependencyGraph.addEdge("c", "f");
     dependencyGraph.addEdge("a", "f");
-    dependencyGraph.addEdge("c", "d");
+    dependencyGraph.addEdge("a", "b");
+    dependencyGraph.addEdge("a", "c");
+    dependencyGraph.addEdge("e", "a");
+    dependencyGraph.addEdge("e", "b");
 
     System.out.println(dependencyGraph.build_order());
   }
