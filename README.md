@@ -18,6 +18,7 @@
     - [3.4.7. Build order](#347-build-order)
     - [3.4.8. First Common Ancestor](#348-first-common-ancestor)
     - [3.4.9. BST Sequences](#349-bst-sequences)
+    - [Check Subtree](#check-subtree)
 
 # 1. Introduction
 This repository contains the solutions in Java to the problems presented in the book Cracking the Coding Interview. All the solutions are arranged in their respective folder according to the chapter names. Each problem is its own Java maven project with their directory names being the same as the problem title in bold as mentioned in the book.
@@ -96,3 +97,8 @@ java -cp target/<project-1.0-SNAPSHOT.jar> tech.arvindrachuri.Main
 | **Question** | **Solution** |
 |--------------|--------------|
 | A binary search tree was created by traversing through an array from left to right and inserting each element. Given a binary search tree with distinct elements, print all possible arrays that could have led to this tree. | [BST Sequences](TreesAndGraphs/bst-sequences/) |
+
+### Check Subtree
+| **Question** | **Solution** |
+|--------------|--------------|
+| T1 and T2 are two very large binary trees, with T1 much bigger than T2. Create an algorithm to determine if T2 is a subtree of T1.<br>A tree T2 is a subtree of T1 if there exists a node n in T1 such that the subtree of n is identical to T2. That is, if you cut off the tree at node n, the two tree would be identical. | [Check Subtree](TreesAndGraphs/check-subtree/) |
